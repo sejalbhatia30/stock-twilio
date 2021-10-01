@@ -52,7 +52,7 @@ function extractKeyword(message,phone){
 }
 
 function respond(keyword, phone ,company) {
-
+    console.log("sending response");
     if (keyword == "Info") myInfo(phone,company)
     else if (keyword == "Greetings") bonjour(phone)
     else if (keyword == "Stock") res_Stock(phone,company)
